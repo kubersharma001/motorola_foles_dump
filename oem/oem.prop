@@ -1,0 +1,10 @@
+#
+# OEM_BUILD_PROPERTIES
+#
+ro.build.version.incremental=84f8c
+ro.build.version.ci=5
+ro.mot.build.guid=f222a9ca8115e85
+ro.product.name=foles
+ro.mot.build.oem.product=foles
+ro.mot.build.customerid=retail
+ro.product.device=foles

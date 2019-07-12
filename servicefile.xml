@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<flashing>
+  <header>
+    <phone_model model="foles"/>
+    <software_version version="foles-user 9 PPF29.105-25-5 84f8c release-keysM6150_04.13.02.11R"/>
+    <sparsing enabled="true" max-sparse-size="536870912"/>
+    <interfaces>
+      <interface name="AP"/>
+    </interfaces>
+  </header>
+  <steps interface="AP">
+    <step operation="getvar" var="max-sparse-size"/>
+    <step operation="oem" var="fb_mode_set"/>
+    <step MD5="25c36899b8736d7d327dbe626672c334" filename="gpt.bin" operation="flash" partition="partition"/>
+    <step MD5="f60f485fb911299b2747da067e2eea83" filename="bootloader.img" operation="flash" partition="bootloader"/>
+    <step MD5="5bf98b4659258045e468b59c61b837af" filename="vbmeta.img" operation="flash" partition="vbmeta"/>
+    <step MD5="7598f0a66eefceba91107d0ca79fd57f" filename="NON-HLOS.bin" operation="flash" partition="modem"/>
+    <step MD5="7b69ee5fcdc9c883b4758c5dd6b299ba" filename="fsg.mbn" operation="flash" partition="fsg"/>
+    <step operation="erase" partition="modemst1"/>
+    <step operation="erase" partition="modemst2"/>
+    <step MD5="cda40103ce7a7f51934c396f8c71d76a" filename="BTFM.bin" operation="flash" partition="bluetooth"/>
+    <step MD5="554f088c69d3ad23962716164b565d8b" filename="dspso.bin" operation="flash" partition="dsp"/>
+    <step MD5="0ec64d56549aea40afd9f97f5ab1ec71" filename="logo.bin" operation="flash" partition="logo"/>
+    <step MD5="cac26e4bc69d5ad44b15056f317afeac" filename="boot.img" operation="flash" partition="boot"/>
+    <step MD5="822e4b78cf41ac4247410c3054e127b1" filename="dtbo.img" operation="flash" partition="dtbo"/>
+    <step MD5="1b52c7cbd39a06969359f85e26daba9f" filename="system.img_sparsechunk.0" operation="flash" partition="system"/>
+    <step MD5="5a8b58f086dc9c5198310c7e8ad79e88" filename="system.img_sparsechunk.1" operation="flash" partition="system"/>
+    <step MD5="85662e61f93245ec59633b77d2890e55" filename="system.img_sparsechunk.2" operation="flash" partition="system"/>
+    <step MD5="3134b3907db75721f9bcb06479ae743c" filename="system.img_sparsechunk.3" operation="flash" partition="system"/>
+    <step MD5="d43db8346748d5e865931ccb833f955b" filename="system.img_sparsechunk.4" operation="flash" partition="system"/>
+    <step MD5="6fcf414ec4478fd5544a7ad6ffac0a1f" filename="system.img_sparsechunk.5" operation="flash" partition="system"/>
+    <step MD5="51a636f96382ff8a76fec180c5dd6150" filename="system_other.img" operation="flash" partition="system_b"/>
+    <step MD5="b844e775dac0014c1909f5d9d2da95d3" filename="oem.img" operation="flash" partition="oem"/>
+    <step MD5="64fe866237625042c5420f159fb637a4" filename="oem_other.img" operation="flash" partition="oem_b"/>
+    <step MD5="c1491ccb9740b118f10d2883c152d267" filename="vendor.img_sparsechunk.0" operation="flash" partition="vendor"/>
+    <step MD5="32dfc17be3695f5164561fdf6517d343" filename="vendor.img_sparsechunk.1" operation="flash" partition="vendor"/>
+    <step operation="erase" partition="carrier"/>
+    <step operation="erase" partition="ddr"/>
+    <step operation="oem" var="fb_mode_clear"/>
+  </steps>
+</flashing>

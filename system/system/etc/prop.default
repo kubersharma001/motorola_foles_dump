@@ -1,0 +1,44 @@
+#
+# ADDITIONAL_DEFAULT_PROPERTIES
+#
+ro.actionable_compatible_property.enabled=true
+ro.secure=1
+security.perf_harden=1
+ro.adb.secure=1
+ro.allow.mock.location=0
+ro.debuggable=0
+ro.config.wallpaper=system/media/wallpapers/default_moto_wallpaper.jpg
+persist.vold.ecryptfs_supported=true
+ro.url.legal=http://www.google.com/intl/%s/mobile/android/basic/phone-legal.html
+ro.url.legal.android_privacy=http://www.google.com/intl/%s/mobile/android/basic/privacy.html
+ro.com.google.rlzbrandcode=MOTD
+ro.opa.eligible_device=true
+ro.setupwizard.mode=OPTIONAL
+ro.com.android.prov_mobiledata=false
+setupwizard.feature.predeferred_enabled=false
+ro.com.google.gmsversion=9_201903
+dalvik.vm.image-dex2oat-Xms=64m
+dalvik.vm.image-dex2oat-Xmx=64m
+dalvik.vm.dex2oat-Xms=64m
+dalvik.vm.dex2oat-Xmx=512m
+dalvik.vm.usejit=true
+dalvik.vm.usejitprofiles=true
+dalvik.vm.dexopt.secondary=true
+dalvik.vm.appimageformat=lz4
+pm.dexopt.first-boot=quicken
+pm.dexopt.boot=verify
+pm.dexopt.install=speed-profile
+pm.dexopt.bg-dexopt=speed-profile
+pm.dexopt.ab-ota=speed-profile
+pm.dexopt.inactive=verify
+pm.dexopt.shared=speed
+dalvik.vm.dex2oat-minidebuginfo=true
+debug.atrace.tags.enableflags=0
+ro.mot.product_wave=2019.2
+#
+# BOOTIMAGE_BUILD_PROPERTIES
+#
+ro.bootimage.build.date=Tue Jun 4 05:12:06 CDT 2019
+ro.bootimage.build.date.utc=1559643126
+ro.bootimage.build.fingerprint=motorola/foles_retail/foles:9/PPF29.105-25-5/84f8c:user/release-keys
+
