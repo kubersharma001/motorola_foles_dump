@@ -1,0 +1,13 @@
+#
+# OEM_BUILD_PROPERTIES
+#
+ro.build.version.incremental=fb0f5
+ro.build.version.ci=20
+ro.mot.build.guid=4c86f79604a3a9f
+ro.product.name=foles_vzw
+ro.mot.build.oem.product=foles_vzw
+ro.mot.build.customerid=verizon
+ro.com.google.clientidbase.ms=android-verizon
+ro.com.google.clientidbase.am=android-verizon
+ro.com.google.clientidbase.yt=android-verizon
+ro.product.device=foles

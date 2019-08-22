@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<permissions>
+    <feature name="com.motorola.software.device.foles" />
+    <feature name="com.motorola.software.product.foles_vzw" />
+    <feature name="com.motorola.hardware.tier.Z" />
+    <feature name="com.motorola.hardware.wave.2019.2" />
+</permissions>

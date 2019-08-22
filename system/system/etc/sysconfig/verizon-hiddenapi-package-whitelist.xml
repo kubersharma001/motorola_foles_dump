@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This XML file declares which Verizon apps that need to access internal APIs.
+-->
+<config>
+  <hidden-api-whitelisted-app package="com.tcs.flaprice.hybrid.ui.android" />
+  <hidden-api-whitelisted-app package="com.vznavigator.Generic" />
+  <hidden-api-whitelisted-app package="com.telecomsys.directedsms.android.SCG" />
+  <hidden-api-whitelisted-app package="com.vcast.mediamanager" />
+  <hidden-api-whitelisted-app package="com.securityandprivacy.android.verizon.vms" />
+  <hidden-api-whitelisted-app package="com.vzw.hss.myverizon" />
+  <hidden-api-whitelisted-app package="com.verizon.mips.services" />
+  <hidden-api-whitelisted-app package="com.vzw.ecid" />
+  <hidden-api-whitelisted-app package="com.verizontelematics.verizonhum" />
+  <hidden-api-whitelisted-app package="com.verizon.messaging.vzmsgs" />
+  <hidden-api-whitelisted-app package="com.customermobile.preload.vzw" />
+  <hidden-api-whitelisted-app package="com.slacker.radio" />
+</config>
