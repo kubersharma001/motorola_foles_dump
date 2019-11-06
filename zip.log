@@ -1,0 +1,170 @@
+
+7-Zip [64] 16.02 : Copyright (c) 1999-2016 Igor Pavlov : 2016-05-21
+p7zip Version 16.02 (locale=en_US.UTF-8,Utf16=on,HugeFiles=on,64 bits,8 CPUs Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz (406F1),ASM,AES-NI)
+
+Scanning the drive for archives:
+1 file, 3556769792 bytes (3392 MiB)
+
+Extracting archive: system.img
+
+WARNINGS:
+There are data after the end of archive
+
+--
+Path = system.img
+Type = Ext
+WARNINGS:
+There are data after the end of archive
+Physical Size = 3500564480
+Tail Size = 56205312
+Cluster Size = 4096
+Free Space = 711790592
+Modified = 2009-01-01 07:00:00
+Created = 2009-01-01 07:00:00
+Last Check Time = 2009-01-01 07:00:00
+Host OS = Linux
+Revision = 1
+inode Size = 256
+Code Page = UTF-8
+Label = /
+ID = EE1F2E3E54555E478D40271C5BBE1C1A
+Characteristics = EXT_ATTR RESIZE_INODE DIR_INDEX
+Incompatible Features = FILETYPE EXTENTS FLEX_BG
+Readonly-compatible Features = SPARSE_SUPER LARGE_FILE HUGE_FILE GDT_CSUM DIR_NLINK EXTRA_ISIZE
+Written KiB = 1
+
+Everything is Ok
+
+Archives with Warnings: 1
+
+Warnings: 1
+Folders: 353
+Files: 3947
+Size:       2757973260
+Compressed: 3556769792
+
+7-Zip [64] 16.02 : Copyright (c) 1999-2016 Igor Pavlov : 2016-05-21
+p7zip Version 16.02 (locale=en_US.UTF-8,Utf16=on,HugeFiles=on,64 bits,8 CPUs Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz (406F1),ASM,AES-NI)
+
+Scanning the drive for archives:
+1 file, 352321536 bytes (336 MiB)
+
+Extracting archive: oem.img
+
+WARNINGS:
+There are data after the end of archive
+
+--
+Path = oem.img
+Type = Ext
+WARNINGS:
+There are data after the end of archive
+Physical Size = 346681344
+Tail Size = 5640192
+Cluster Size = 4096
+Free Space = 335433728
+Modified = 2019-09-09 17:03:16
+Created = 2019-09-09 17:03:16
+Last Check Time = 2019-09-09 17:03:16
+Host OS = Linux
+Revision = 1
+inode Size = 256
+Code Page = UTF-8
+Label = oem
+ID = E1709B03A8134F4AA6953F37A2303349
+Characteristics = EXT_ATTR RESIZE_INODE DIR_INDEX
+Incompatible Features = FILETYPE EXTENTS FLEX_BG
+Readonly-compatible Features = SPARSE_SUPER LARGE_FILE HUGE_FILE GDT_CSUM DIR_NLINK EXTRA_ISIZE
+Written KiB = 1
+
+Everything is Ok
+
+Archives with Warnings: 1
+
+Warnings: 1
+Folders: 14
+Files: 21
+Size:       5475987
+Compressed: 352321536
+
+7-Zip [64] 16.02 : Copyright (c) 1999-2016 Igor Pavlov : 2016-05-21
+p7zip Version 16.02 (locale=en_US.UTF-8,Utf16=on,HugeFiles=on,64 bits,8 CPUs Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz (406F1),ASM,AES-NI)
+
+Scanning the drive for archives:
+1 file, 956301312 bytes (912 MiB)
+
+Extracting archive: vendor.img
+
+WARNINGS:
+There are data after the end of archive
+
+--
+Path = vendor.img
+Type = Ext
+WARNINGS:
+There are data after the end of archive
+Physical Size = 939524096
+Tail Size = 16777216
+Cluster Size = 4096
+Free Space = 235941888
+Modified = 2009-01-01 07:00:00
+Created = 2009-01-01 07:00:00
+Last Check Time = 2009-01-01 07:00:00
+Host OS = Linux
+Revision = 1
+inode Size = 256
+Code Page = UTF-8
+Label = vendor
+ID = 8BE064299193549F9E1038ACC491B796
+Characteristics = EXT_ATTR RESIZE_INODE DIR_INDEX
+Incompatible Features = FILETYPE EXTENTS FLEX_BG
+Readonly-compatible Features = SPARSE_SUPER LARGE_FILE HUGE_FILE GDT_CSUM DIR_NLINK EXTRA_ISIZE
+Written KiB = 1
+
+Everything is Ok
+
+Archives with Warnings: 1
+
+Warnings: 1
+Folders: 106
+Files: 2133
+Size:       714144146
+Compressed: 956301312
+
+7-Zip [64] 16.02 : Copyright (c) 1999-2016 Igor Pavlov : 2016-05-21
+p7zip Version 16.02 (locale=en_US.UTF-8,Utf16=on,HugeFiles=on,64 bits,8 CPUs Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz (406F1),ASM,AES-NI)
+
+Scanning the drive for archives:
+
+7-Zip [64] 16.02 : Copyright (c) 1999-2016 Igor Pavlov : 2016-05-21
+p7zip Version 16.02 (locale=en_US.UTF-8,Utf16=on,HugeFiles=on,64 bits,8 CPUs Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz (406F1),ASM,AES-NI)
+
+Scanning the drive for archives:
+1 file, 146800640 bytes (140 MiB)
+
+Extracting archive: modem.img
+--
+Path = modem.img
+Type = Ext
+Physical Size = 146800640
+Cluster Size = 4096
+Free Space = 59215872
+Modified = 2019-09-09 12:54:05
+Created = 2019-09-09 12:54:05
+Last Check Time = 2019-09-09 12:54:05
+Host OS = Linux
+Revision = 1
+inode Size = 128
+Code Page = UTF-8
+ID = 19533A2EBF504889B0D84CE47E9C042F
+Characteristics = EXT_ATTR RESIZE_INODE DIR_INDEX
+Incompatible Features = FILETYPE EXTENTS 64BIT FLEX_BG
+Readonly-compatible Features = SPARSE_SUPER LARGE_FILE HUGE_FILE DIR_NLINK EXTRA_ISIZE
+Written KiB = 1
+
+Everything is Ok
+
+Folders: 2
+Files: 191
+Size:       97210960
+Compressed: 146800640
