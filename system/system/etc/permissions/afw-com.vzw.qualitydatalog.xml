@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<config>
+    <disallowed-managed-device  package="com.vzw.qualitydatalog"/>
+    <disallowed-managed-profile package="com.vzw.qualitydatalog"/>
+    <disallowed-managed-user    package="com.vzw.qualitydatalog"/>
+</config>
+

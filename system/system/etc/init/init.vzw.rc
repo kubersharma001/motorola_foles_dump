@@ -1,0 +1,9 @@
+on post-fs
+    mkdir /mnt/product/persist/user/logs 0770 system system
+    mkdir /mnt/product/persist/user/logs/vzw 0770 system system
+    mkdir /mnt/product/persist/user/logs/vzw/quality 0770 system system
+    restorecon_recursive   /vzw
+    restorecon_recursive   /mnt/product/persist/user/logs
+
+on property:ro.carrier=vzw
+    setprop ro.HorizontalVVM true
