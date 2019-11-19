@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<permissions>
+    <privapp-permissions package="com.verizon.messaging.vzmsgs">
+        <permission name="android.permission.DUMP"/>
+        <permission name="android.permission.WRITE_APN_SETTINGS"/>
+	<deny-permission name="android.permission.BIND_TELECOM_CONNECTION_SERVICE"/>
+    </privapp-permissions>
+</permissions>

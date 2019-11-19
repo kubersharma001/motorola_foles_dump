@@ -1,0 +1,30 @@
+
+
+HAB_PRODUCT foles
+
+HAB_SECURITY_VERSION 6
+
+HAB_CID 2
+
+HAB_JENKINS enabled
+
+HAB_CUSTOMER_REGION Verizon
+
+OTA_KEY motorola/security/certs/hab_support/products/foles/apk_certs_Verizon/ota.x509.pem
+
+
+This build is customer signed.
+
+Use "fastboot getvar cid" to confirm customer ID on secure HW.
+
+Value must be 0 (developer HW) or match this value:
+
+Verizon               => 2
+
+
+For signed build support, please see:
+
+motorola/security/certs/README.txt
+
+
+
