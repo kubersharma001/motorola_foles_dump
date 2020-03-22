@@ -1,0 +1,14 @@
+#
+# OEM_BUILD_PROPERTIES
+#
+ro.build.version.incremental=38ece7
+ro.build.version.ci=1
+ro.build.version.revision=1
+ro.mot.build.guid=fb4c15eaa7e911c
+ro.mot.build.customerid=amz
+ro.carrier.oem=amz
+ro.product.name=foles_amz
+ro.product.system.name=foles_amz
+ro.product.product.name=foles_amz
+ro.mot.build.oem.product=foles_amz
+ro.product.device=foles
